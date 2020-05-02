@@ -18,18 +18,22 @@
       </h1>
       <nav>
         <ul>
-          <li><a href="index.html">Contact</a></li>
+          <li id="li-contact"><a href="#contact">Contact Me <i style="color: #fff" class="far fa-envelope"></i></a>
+          </li>
         </ul>
       </nav>
     </div>
     <div class="main">
-      <h1 class="text-primary">Welcome to my Portfolio!</h1>
-      <p>I am Marko, the web developer.</p>
-      <a class="btn" href="#present">View Projects</a>
+      <h1 class="text-primary">Hello there! I am Marko, the <span id="type" data-wait="3000"
+          data-words='["Web Developer, Programmer, and UI/UX Dev"]'></span></h1>
+
+      <a class="btn" href="#present">View My Projects</a>
     </div>
   </header>
 
   <div class="about">
+    <h2 id="spec-title">I SPECIALIZE IN</h2>
+    <div class="line"></div>
     <section class="icons">
       <div class="flex-items">
         <div>
@@ -58,6 +62,8 @@
   </div>
 
   <div class="projects">
+    <h2 id="spec-title">MY PROJECTS</h2>
+    <div class="line"></div>
     <section id="present">
       <div class="flex-projects">
         <div>
@@ -82,9 +88,82 @@
           <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
         </div>
       </div>
+      <div class="flex-projects">
+        <div>
+          <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="css,result"
+            data-user="marko-stankovic" data-slug-hash="QWjOWwj" data-preview="true" data-pen-title="Resume">
+            <span>See the Pen <a href="https://codepen.io/marko-stankovic/pen/QWjOWwj">
+                Resume</a> by Marko Stankovic (<a href="https://codepen.io/marko-stankovic">@marko-stankovic</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+        <div>
+          <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result"
+            data-user="marko-stankovic" data-slug-hash="MdJaBQ" data-preview="true" data-pen-title="the-doors-tribute">
+            <span>See the Pen <a href="https://codepen.io/marko-stankovic/pen/MdJaBQ">
+                the-doors-tribute</a> by Marko Stankovic (<a
+                href="https://codepen.io/marko-stankovic">@marko-stankovic</a>)
+              on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+      </div>
     </section>
   </div>
 
+  <section id="contact" class="contact flex-contact">
+    <div class="row">
+      <div class="column">
+        <div class="column-1">
+          <img src="profile.jpg" alt="myImage">
+          <p>I am an <span class="spec-text">aspiring</span> web developer and a tech enthusiast.</p>
+          <p>I enjoy making things that are <span class="spec-text">beautiful</span> yet simple
+            in nature.</p>
+          <p>Reach me out if you have any <span class="spec-text">ideas</span> on your mind.</p>
+          <br>
+          <p>Let's make <span class="spec-text">great</span> things together!</p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="column-2">
+          <div class="contact-form">
+            <h3 class="m-heading">Contact Me</h3>
+            <div class="line"></div>
+          </div>
+          <form method="" name="contact" class="forma">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name" placeholder="Enter Your name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Enter Your email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <button type="submit" class="send-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="social">
+      <a href=""><i class="fab fa-facebook fa-3x"></i></a>
+      <a href=""><i class="fab fa-linkedin fa-3x"></i></a>
+      <a href=""><i class="fab fa-github fa-3x"></i></a>
+      <a href=""><i class="fab fa-codepen fa-3x"></i></a>
+    </div>
+    <p style="color:#fff">Copyright &copy; 2020</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is my portfolio website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marko-91/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "website",
+    "web",
+    "development",
+    "programming"
+  ],
+  "author": "Marko Stankovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marko-91/portfolio/issues"
+  },
+  "homepage": "https://github.com/Marko-91/portfolio#readme"
+}
